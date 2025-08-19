@@ -3,7 +3,7 @@ package com.notes_app_with_jwt.NotesApp.model;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="notesApp_user")
+@Table(name="notes_app_user")
 public class User{
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
